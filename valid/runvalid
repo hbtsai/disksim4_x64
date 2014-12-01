@@ -144,8 +144,8 @@ echo "ASCII input (avg. resp should be about 13.8ms)"
 && grep "IOdriver Response time average" ascii.outv
 
 echo ""
-echo "syssim: externally-controlled DiskSim (avg. resp should be about 8.9ms)"
-${PREFIX}/syssim cheetah4LP.parv syssim.outv 2676846\
+echo "physim: externally-controlled DiskSim (avg. resp should be about 8.9ms)"
+${PREFIX}/physim cheetah4LP.parv syssim.outv 2676846\
 && grep "IOdriver Response time average" syssim.outv
 
 # echo ""
